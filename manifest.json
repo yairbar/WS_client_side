@@ -1,0 +1,11 @@
+{
+    "name": "WS test client side",
+    "version": "1.0",
+    "content_scripts":[{
+        "matches" : ["<all_urls>"],
+        "js": [ "jquery-3.2.1.min.js" , "content.js" ]
+    }],
+    "manifest_version": 2
+}
+
+
